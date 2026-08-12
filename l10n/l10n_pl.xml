@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <texts>
+        <text name="vas_title" text="System wspomagania pojazdu"/>
+
+        <text name="vas_automaticEmergencyBraking" text="Asystent awaryjnego hamowania"/>
+        <text name="vas_automaticEmergencyBraking_tooltip" text="Ostrzega dźwiękowo przed grożącą kolizją i w razie potrzeby automatycznie hamuje."/>
+
+        <text name="vas_parkingDistanceControl" text="Asystent parkowania"/>
+        <text name="vas_parkingDistanceControl_tooltip" text="Emituje sygnały dźwiękowe w obsługiwanych pojazdach, wskazujące odległość od przeszkód z przodu i z tyłu."/>
+
+        <text name="input_VAS_TOGGLE_INTELLIGENT_CRUISE_CONTROL" text="Przełącz inteligentny tempomat"/>
+        <text name="vas_notification_intelligentCruiseControl_enabled" text="Inteligentny tempomat: włączony"/>
+        <text name="vas_notification_intelligentCruiseControl_disabled" text="Inteligentny tempomat: wyłączony"/>
+
+        <text name="input_VAS_TOGGLE_AUTOMATIC_LOWBEAM" text="Przełącz automatyczne światła mijania"/>
+        <text name="vas_notification_automaticLowBeam_enabled" text="Automatyczne światła mijania: włączone"/>
+        <text name="vas_notification_automaticLowBeam_disabled" text="Automatyczne światła mijania: wyłączone"/>
+
+        <text name="input_VAS_TOGGLE_AUTOMATIC_HIGHBEAM" text="Przełącz automatyczne światła drogowe"/>
+        <text name="vas_notification_automaticHighBeam_enabled" text="Automatyczne światła drogowe: włączone"/>
+        <text name="vas_notification_automaticHighBeam_disabled" text="Automatyczne światła drogowe: wyłączone"/>
+
+        <text name="input_VAS_TOGGLE_RWS" text="Przełącz ostrzeżenie tylne"/>
+        <text name="vas_notification_RWS_enabled" text="Ostrzeżenie tylne: włączone"/>
+        <text name="vas_notification_RWS_disabled" text="Ostrzeżenie tylne: wyłączone"/>
+
+        <text name="input_VAS_TOGGLE_SOUNDGROUP" text="Przełącz syrenę"/>
+        
+        <text name="input_VAS_SWITCH_SOUNDGROUP" text="Zmień syrenę"/>
+
+        <text name="input_VAS_AIR_HORN" text="Klakson pneumatyczny"/>
+
+        <text name="vas_configuration_soundControl" text="Konfiguracja syreny"/>
+    </texts>
+</l10n>

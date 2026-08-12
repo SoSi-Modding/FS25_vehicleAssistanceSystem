@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="106">
+	<author>SoSi-Modding</author>
+	
+	<version>1.0.0.1</version>
+	
+	<title>
+		<en>Vehicle Assistance System</en>
+		<de>Fahrzeugassistenzsystem</de>
+		<fr>Système D'Assistance Au Véhicule</fr>
+	</title>
+	
+	<description>
+<en>
+<![CDATA[Vehicle Assistance System (VAS)
+Enhance your vehicles with intelligent assistance features that make driving and maneuvering more convenient and safer.
+
+-- CORE FEATURES --
+Parking Distance Control (PDC)
+- Vehicle-specific feature that must be configured in individual vehicle XMLs. (is pre-registered for several basegame, dlc and mod vehicles)
+- Smart sensors alert you as you approach objects when parking or maneuvering (under 10 kph), measuring distances in real-time. 
+- Can be toggled on/off in the general settings menu.
+
+Automatic Emergency Braking (AEB)
+- Vehicle-specific feature that must be activated in individual vehicle XMLs. (is pre-registered for several basegame, dlc and mod vehicles)
+- Provides collision detection and automatic braking when obstacles appear suddenly ahead. 
+- Activates at speeds above 10 kph with detection range up to 20 meters. 
+- Can be toggled on/off in the general settings menu.
+
+Intelligent Cruise Control (ICC)
+- Globally available on all motor vehicles. 
+- Maintains your set speed while automatically adjusting your speed to the vehicles ahead of you using adaptive distance calculation.
+- Respects your set cruising speed and automatically adjusts based on detected traffic.
+- Toggle hotkey: Alt + 3.
+
+Automatic Light Control (ALC)
+- Available on vehicles with light systems. 
+- Intelligently manages low beam and high beam based on driving conditions, weather, time of day and oncoming traffic. 
+- Automatically switches to high beam in darkness and low beam when vehicles approach. 
+- Toggle hotkeys: Alt + F (low beam) and Alt + Ctrl + F (high beam).
+
+Reverse Camera Control (RCC)
+- Vehicle-specific feature that must be configured in individual vehicle XMLs. 
+- When enabled for a vehicle, it automatically activates a rear view camera when reversing, helping you navigate tight spots with confidence. 
+- Note: Requires the Mercedes-Benz Trucks Pack DLC.
+
+-- ADDITIONAL FEATURES --
+Animation Action Control (AAC)
+- Advanced animation management system for vehicle interactions with dedicated hotkeys.
+
+Beacon Light Control (BLC)
+- Control beacon systems or emergency warning lights with dedicated hotkeys.
+
+Fold Cover Disabler (FCD)
+- Manage vehicle cover, folding and turnOnVehicle behaviors on specific vehicles through XML configuration, allowing better customization without mod conflicts.
+
+For detailed technical documentation on integrating features into custom vehicles, please refer to the vas-documentation.pdf in the mod's sdk folder.
+
+Changelog 1.0.0.1:
+- Fixed: (RCC) Reverse Camera Control not activating correctly when steering direction change is set to automatic
+- Fixed: (ICC) Intelligent Cruise Control breaks when vehicle size parameter are inaccurate
+- Fixed: (ALC) Automatic Light Control does not effect attached equipment
+- Changed: (AEB) Increased brake force at automatic emergency brake event
+- Added: (FCD) disableTurnOnVehicle parameter]]></en>
+<de>
+<![CDATA[Fahrzeugassistenzsystem (VAS)
+Verbessere deine Fahrzeuge mit intelligenten Assistenzfunktionen, die das Fahren und Manövrieren bequemer und sicherer machen.
+
+-- HAUPTFUNKTIONEN --
+Parkabstandskontrolle (PDC)
+- Fahrzeugspezifisches Feature, das in den XML-Dateien einzelner Fahrzeuge konfiguriert werden muss. (ist für mehrere Basisspiel-, DLC- und Mod-Fahrzeuge vorregistriert)
+- Intelligente Sensoren warnen dich beim Annähern an Objekte beim Parken oder Manövrieren (unter 10 km/h) und messen Abstände in Echtzeit.
+- Kann im Menü "Allgemeine Einstellungen" ein-/ausgeschaltet werden.
+
+Automatische Notbremsung (AEB)
+- Fahrzeugspezifisches Feature, das in den XML-Dateien einzelner Fahrzeuge aktiviert werden muss. (ist für mehrere Basisspiel-, DLC- und Mod-Fahrzeuge vorregistriert)
+- Bietet Kollisionserkennung und automatisches Bremsen, wenn plötzlich Hindernisse auftauchen.
+- Aktiviert sich bei Geschwindigkeiten über 10 km/h mit einer Reichweite von bis zu 20 Metern.
+- Kann im Menü "Allgemeine Einstellungen" ein-/ausgeschaltet werden.
+
+Intelligente Geschwindigkeitsregelung (ICC)
+- Global auf allen motorisierten Fahrzeugen verfügbar.
+- Hält deine eingestellte Geschwindigkeit und passt diese automatisch an vorausfahrende Fahrzeuge durch adaptive Abstandsberechnung an.
+- Respektiert deine eingestellte Reisegeschwindigkeit und passt sich automatisch dem erkannten Verkehr an.
+- Tastenkombination zum Umschalten: Alt + 3.
+
+Automatische Lichtsteuerung (ALC)
+- Verfügbar für Fahrzeuge mit Lichtsystemen.
+- Verwaltet intelligent Abblend- und Fernlicht basierend auf Fahrbedingungen, Wetter, Tageszeit und Gegenverkehr.
+- Schaltet automatisch auf Fernlicht in Dunkelheit und auf Abblendlicht, wenn sich Fahrzeuge nähern.
+- Tastenkombinationen: Alt + F (Abblendlicht) und Alt + Strg + F (Fernlicht).
+
+Rückfahrkamera-Steuerung (RCC)
+- Fahrzeugspezifisches Feature, das in den XML-Dateien einzelner Fahrzeuge konfiguriert werden muss.
+- Aktiviert beim Rückwärtsfahren automatisch eine Rückansicht und hilft dir, enge Stellen sicher zu navigieren.
+- Hinweis: Erfordert das Mercedes-Benz Trucks Pack DLC.
+
+-- ZUSÄTZLICHE FUNKTIONEN --
+Animationsaktionssteuerung (AAC)
+- Erweiterte Animationssteuerung für Fahrzeuge mit dedizierten Tastenkombinationen.
+
+Blaulichtsteuerung (BLC)
+- Steuerung von Rundumleuchten, Blaulicht oder anderen Warnleuchten mit dedizierten Tastenkombinationen.
+
+Fold- / Cover-Deaktivierung (FCD)
+- Verwalte die Verfügbarkeit von Foldable, Cover und TurnOnVehicle bei bestimmten Fahrzeugen durch XML-Konfiguration für bessere Anpassung ohne Mod-Konflikte.
+
+Für detaillierte technische Dokumentation zur Integration von Funktionen in eigene Fahrzeuge siehe vas-documentation.pdf im sdk-Ordner des Mods.
+
+Changelog 1.0.0.1:
+- Behoben: (RCC) Rückfahrkamera-Steuerung wird nicht korrekt aktiviert, wenn der Lenkrichtungswechsel auf Automatik eingestellt ist
+- Behoben: (ICC) Intelligente Geschwindigkeitsregelung funktioniert nicht, wenn die Fahrzeuggrößenparameter ungenau sind
+- Behoben: (ALC) Die automatische Lichtsteuerung hat keine Auswirkungen auf angeschlossene Geräte
+- Geändert: (AEB) Erhöhte Bremskraft bei automatischer Notbremsung
+- Hinzugefügt: (FCD) disableTurnOnVehicle Parameter]]></de>
+<fr>
+<![CDATA[Système D'Assistance Au Véhicule (VAS)
+Améliorez vos véhicules avec des fonctionnalités d'assistance intelligentes qui rendent la conduite et les manœuvres plus pratiques et plus sûres.
+
+-- FONCTIONNALITÉS PRINCIPALES --
+Contrôle de Distance de Stationnement (PDC)
+- Fonctionnalité spécifique au véhicule qui doit être configurée dans les fichiers XML de chaque véhicule. (est pré-enregistrée pour plusieurs véhicules du jeu de base, DLC et mods)
+- Des capteurs intelligents vous alertent lorsque vous vous approchez d'objets pendant le stationnement ou les manœuvres (moins de 10 km/h), mesurant les distances en temps réel.
+- Peut être activé/désactivé dans le menu Paramètres généraux.
+
+Freinage d'Urgence Automatique (AEB)
+- Fonctionnalité spécifique au véhicule qui doit être activée dans les fichiers XML de chaque véhicule. (est pré-enregistrée pour plusieurs véhicules du jeu de base, DLC et mods)
+- Fournit une détection de collision et un freinage automatique lorsque des obstacles apparaissent soudainement devant vous.
+- S'active à des vitesses supérieures à 10 km/h avec une portée de détection jusqu'à 20 mètres.
+- Peut être activé/désactivé dans le menu Paramètres généraux.
+
+Régulateur de Vitesse Intelligent (ICC)
+- Disponible globalement sur tous les véhicules motorisés.
+- Maintient votre vitesse définie tout en ajustant automatiquement votre vitesse aux véhicules devant vous grâce à un calcul de distance adaptatif.
+- Respecte votre vitesse de croisière définie et s'ajuste automatiquement en fonction du trafic détecté.
+- Raccourci clavier : Alt + 3.
+
+Contrôle Automatique des Feux (ALC)
+- Disponible sur les véhicules équipés de systèmes d'éclairage.
+- Gère intelligemment les feux de croisement et les feux de route en fonction des conditions de conduite, de la météo, de l'heure et du trafic venant en sens inverse.
+- Passe automatiquement aux feux de route dans l'obscurité et aux feux de croisement lorsque des véhicules approchent.
+- Raccourcis clavier : Alt + F (feux de croisement) et Alt + Ctrl + F (feux de route).
+
+Contrôle de Caméra de Recul (RCC)
+- Fonctionnalité spécifique au véhicule qui doit être configurée dans les fichiers XML de chaque véhicule.
+- Active automatiquement une vue arrière lors de la marche arrière, vous aidant à naviguer dans des espaces restreints en toute confiance.
+- Note : Nécessite le DLC Pack Camions Mercedes-Benz.
+
+-- FONCTIONNALITÉS SUPPLÉMENTAIRES --
+Contrôle d'Action d'Animation (AAC)
+- Système avancé de gestion des animations pour les interactions de véhicules avec des raccourcis clavier dédiés.
+
+Contrôle des Gyrophares (BLC)
+- Contrôle des systèmes de gyrophares ou des feux d'avertissement d'urgence avec des raccourcis clavier dédiés.
+
+Dispositif de désactivation du couvercle rabattable (FCD)
+- Gérez les comportements de couverture, de pliage et d'activation des véhicules sur des véhicules spécifiques grâce à une configuration XML, ce qui permet une meilleure personnalisation sans conflits de mods.
+
+Pour une documentation technique détaillée sur l'intégration des fonctionnalités dans les véhicules personnalisés, veuillez consulter vas-documentation.pdf dans le dossier sdk du mod.
+
+Changelog 1.0.0.1:
+- Correction : (RCC) Le contrôle de la caméra de recul ne s'active pas correctement lorsque le changement de direction du volant est réglé sur automatique.
+- Correction : (ICC) Le régulateur de vitesse intelligent ne fonctionne pas lorsque les paramètres de taille du véhicule sont inexacts.
+- Correction : (ALC) Le contrôle automatique de la luminosité n'affecte pas les équipements connectés.
+- Modification : (AEB) Augmentation de la force de freinage en cas de freinage d'urgence automatique.
+- Ajout : (FCD) paramètre disableTurnOnVehicle.]]></fr>
+    </description>
+
+	<iconFilename>icon_vehicleAssistanceSystem.png</iconFilename>
+
+	<multiplayer supported="true"/>
+
+	<l10n filenamePrefix="l10n/l10n"/>
+
+	<extraSourceFiles>
+       <sourceFile filename="scripts/GlobalSpecializations.lua" />
+	   <sourceFile filename="scripts/MenuManager.lua" />
+	   <sourceFile filename="scripts/SoundTemplateLoader.lua" />
+    </extraSourceFiles>
+
+	<globalSpecializations>
+		<globalSpecialization name="reverseCameraControl" className="ReverseCameraControl" filename="scripts/specializations/ReverseCameraControl.lua" requiredDLC="pdlc_daimlerTruckPack"/>
+		<globalSpecialization name="parkingDistanceControl" className="ParkingDistanceControl" filename="scripts/specializations/ParkingDistanceControl.lua"/>
+		<globalSpecialization name="automaticEmergencyBraking" className="AutomaticEmergencyBraking" filename="scripts/specializations/AutomaticEmergencyBraking.lua"/>
+		<globalSpecialization name="intelligentCruiseControl" className="IntelligentCruiseControl" filename="scripts/specializations/IntelligentCruiseControl.lua"/>
+		<globalSpecialization name="automaticLightControl" className="AutomaticLightControl" filename="scripts/specializations/AutomaticLightControl.lua"/>
+		<globalSpecialization name="animationActionControl" className="AnimationActionControl" filename="scripts/specializations/AnimationActionControl.lua"/>
+		<globalSpecialization name="foldCoverDisabler" className="FoldCoverDisabler" filename="scripts/specializations/FoldCoverDisabler.lua"/>
+		<globalSpecialization name="beaconLightControl" className="BeaconLightControl" filename="scripts/specializations/BeaconLightControl.lua"/>
+	</globalSpecializations>
+
+	<menuManager>
+		<section menuTab="generalSettings" title="vas_title" savefile="settings.xml" saveInSavegame="false">
+			<setting name="automaticEmergencyBraking" title="vas_automaticEmergencyBraking" tooltip="vas_automaticEmergencyBraking_tooltip" isYesNoOption="true" yesText="ui_on" noText="ui_off" defaultOption="yes"/>
+			<setting name="parkingDistanceControl" title="vas_parkingDistanceControl" tooltip="vas_parkingDistanceControl_tooltip" isYesNoOption="true" yesText="ui_on" noText="ui_off" defaultOption="yes"/>
+		</section>
+	</menuManager>
+
+	<actions>
+		<action name="VAS_TOGGLE_INTELLIGENT_CRUISE_CONTROL"/>
+        <action name="VAS_TOGGLE_AUTOMATIC_LOWBEAM"/>
+		<action name="VAS_TOGGLE_AUTOMATIC_HIGHBEAM"/>
+		<action name="VAS_TOGGLE_RWS"/>
+		<action name="VAS_TOGGLE_SOUNDGROUP"/>
+		<action name="VAS_SWITCH_SOUNDGROUP"/>
+		<action name="VAS_AIR_HORN"/>
+    </actions>
+
+    <inputBinding>
+		<actionBinding action="VAS_TOGGLE_INTELLIGENT_CRUISE_CONTROL">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lalt KEY_3"/>
+        </actionBinding>
+        <actionBinding action="VAS_TOGGLE_AUTOMATIC_LOWBEAM">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lalt KEY_f"/>
+        </actionBinding>
+		<actionBinding action="VAS_TOGGLE_AUTOMATIC_HIGHBEAM">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lalt KEY_lctrl KEY_f"/>
+        </actionBinding>
+		<actionBinding action="VAS_TOGGLE_RWS">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lctrl KEY_home"/>
+        </actionBinding>
+		<actionBinding action="VAS_TOGGLE_SOUNDGROUP">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lctrl KEY_KP_1"/>
+        </actionBinding>
+		<actionBinding action="VAS_SWITCH_SOUNDGROUP">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lctrl KEY_KP_4"/>
+        </actionBinding>
+		<actionBinding action="VAS_AIR_HORN">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lshift KEY_0"/>
+		</actionBinding>
+    </inputBinding>
+</modDesc>

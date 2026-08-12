@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <texts>
+        <text name="vas_title" text="Система допомоги транспортному засобу"/>
+
+        <text name="vas_automaticEmergencyBraking" text="Асистент екстреного гальмування"/>
+        <text name="vas_automaticEmergencyBraking_tooltip" text="Звуково попереджає про можливе зіткнення в підтримуваних транспортних засобах і за потреби автоматично гальмує."/>
+
+        <text name="vas_parkingDistanceControl" text="Паркувальний асистент"/>
+        <text name="vas_parkingDistanceControl_tooltip" text="Подає звукові сигнали в підтримуваних транспортних засобах, що показують відстань до перешкод спереду та ззаду."/>
+
+        <text name="input_VAS_TOGGLE_INTELLIGENT_CRUISE_CONTROL" text="Перемкнути інтелектуальний круїз-контроль"/>
+        <text name="vas_notification_intelligentCruiseControl_enabled" text="Інтелектуальний круїз-контроль: увімкнено"/>
+        <text name="vas_notification_intelligentCruiseControl_disabled" text="Інтелектуальний круїз-контроль: вимкнено"/>
+
+        <text name="input_VAS_TOGGLE_AUTOMATIC_LOWBEAM" text="Перемкнути автоматичне ближнє світло"/>
+        <text name="vas_notification_automaticLowBeam_enabled" text="Автоматичне ближнє світло: увімкнено"/>
+        <text name="vas_notification_automaticLowBeam_disabled" text="Автоматичне ближнє світло: вимкнено"/>
+
+        <text name="input_VAS_TOGGLE_AUTOMATIC_HIGHBEAM" text="Перемкнути автоматичне дальнє світло"/>
+        <text name="vas_notification_automaticHighBeam_enabled" text="Автоматичне дальнє світло: увімкнено"/>
+        <text name="vas_notification_automaticHighBeam_disabled" text="Автоматичне дальнє світло: вимкнено"/>
+
+        <text name="input_VAS_TOGGLE_RWS" text="Перемкнути заднє попередження"/>
+        <text name="vas_notification_RWS_enabled" text="Заднє попередження: увімкнено"/>
+        <text name="vas_notification_RWS_disabled" text="Заднє попередження: вимкнено"/>
+
+        <text name="input_VAS_TOGGLE_SOUNDGROUP" text="Перемкнути сирену"/>
+        
+        <text name="input_VAS_SWITCH_SOUNDGROUP" text="Змінити сирену"/>
+
+        <text name="input_VAS_AIR_HORN" text="Пневматичний сигнал"/>
+
+        <text name="vas_configuration_soundControl" text="Налаштування сирени"/>
+    </texts>
+</l10n>

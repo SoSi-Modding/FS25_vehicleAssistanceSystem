@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<soundTemplates xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://validation.gdn.giants-software.com/xml/fs25/1.15.0.0/soundTemplates.xsd">
+	<!-- Emergency Sirens -->
+	<template name="VAS_SIREN_CITY" file="../FS25_vehicleAssistanceSystem/shared/sounds/siren_city.ogg" priority="VERY_HIGH" volumeScale="2" outerRadius="75" innerRadius="1">
+        <volume indoor="0.80" outdoor="1.00" />
+    </template>
+	<template name="VAS_SIREN_COMPRESSOR" file="../FS25_vehicleAssistanceSystem/shared/sounds/siren_compressor.ogg" priority="VERY_HIGH" volumeScale="2" outerRadius="75" innerRadius="1">
+        <volume indoor="0.80" outdoor="1.00" />
+    </template>
+	<template name="VAS_SIREN_AIRHORN" file="../FS25_vehicleAssistanceSystem/shared/sounds/siren_airHorn.ogg" priority="VERY_HIGH" volumeScale="2" outerRadius="75" innerRadius="1">
+        <volume indoor="0.90" outdoor="1.10" />
+    </template>
+</soundTemplates>

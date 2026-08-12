@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <texts>
+        <text name="vas_title" text="Araç destek sistemi"/>
+
+        <text name="vas_automaticEmergencyBraking" text="Acil fren asistanı"/>
+        <text name="vas_automaticEmergencyBraking_tooltip" text="Olası bir çarpışma durumunda sesli uyarı verir ve gerekirse otomatik olarak fren yapar."/>
+
+        <text name="vas_parkingDistanceControl" text="Park yardımcısı"/>
+        <text name="vas_parkingDistanceControl_tooltip" text="Desteklenen araçlarda ön ve arka engellere olan mesafeyi gösteren sesli sinyaller verir."/>
+
+        <text name="input_VAS_TOGGLE_INTELLIGENT_CRUISE_CONTROL" text="Akıllı hız sabitleyiciyi değiştir"/>
+        <text name="vas_notification_intelligentCruiseControl_enabled" text="Akıllı hız sabitleyici: açık"/>
+        <text name="vas_notification_intelligentCruiseControl_disabled" text="Akıllı hız sabitleyici: kapalı"/>
+
+        <text name="input_VAS_TOGGLE_AUTOMATIC_LOWBEAM" text="Otomatik kısa farı değiştir"/>
+        <text name="vas_notification_automaticLowBeam_enabled" text="Otomatik kısa far: açık"/>
+        <text name="vas_notification_automaticLowBeam_disabled" text="Otomatik kısa far: kapalı"/>
+
+        <text name="input_VAS_TOGGLE_AUTOMATIC_HIGHBEAM" text="Otomatik uzun farı değiştir"/>
+        <text name="vas_notification_automaticHighBeam_enabled" text="Otomatik uzun far: açık"/>
+        <text name="vas_notification_automaticHighBeam_disabled" text="Otomatik uzun far: kapalı"/>
+
+        <text name="input_VAS_TOGGLE_RWS" text="Arka uyarıyı değiştir"/>
+        <text name="vas_notification_RWS_enabled" text="Arka uyarı: etkin"/>
+        <text name="vas_notification_RWS_disabled" text="Arka uyarı: devre dışı"/>
+
+        <text name="input_VAS_TOGGLE_SOUNDGROUP" text="Sireni değiştir"/>
+        
+        <text name="input_VAS_SWITCH_SOUNDGROUP" text="Sireni değiştir"/>
+
+        <text name="input_VAS_AIR_HORN" text="Havalı korna"/>
+
+        <text name="vas_configuration_soundControl" text="Siren yapılandırması"/>
+    </texts>
+</l10n>

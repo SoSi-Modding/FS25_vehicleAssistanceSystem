@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <texts>
+        <text name="vas_title" text="Asistenční systém vozidla"/>
+
+        <text name="vas_automaticEmergencyBraking" text="Asistent nouzového brzdění"/>
+        <text name="vas_automaticEmergencyBraking_tooltip" text="Akusticky varuje před hrozící kolizí a v případě potřeby automaticky zabrzdí."/>
+
+        <text name="vas_parkingDistanceControl" text="Parkovací asistent"/>
+        <text name="vas_parkingDistanceControl_tooltip" text="Vydává zvukové signály u podporovaných vozidel, které ukazují vzdálenost od překážek vpředu i vzadu."/>
+
+        <text name="input_VAS_TOGGLE_INTELLIGENT_CRUISE_CONTROL" text="Přepnout inteligentní tempomat"/>
+        <text name="vas_notification_intelligentCruiseControl_enabled" text="Inteligentní tempomat: zapnut"/>
+        <text name="vas_notification_intelligentCruiseControl_disabled" text="Inteligentní tempomat: vypnut"/>
+
+        <text name="input_VAS_TOGGLE_AUTOMATIC_LOWBEAM" text="Přepnout automatická potkávací světla"/>
+        <text name="vas_notification_automaticLowBeam_enabled" text="Automatická potkávací světla: zapnuta"/>
+        <text name="vas_notification_automaticLowBeam_disabled" text="Automatická potkávací světla: vypnuta"/>
+
+        <text name="input_VAS_TOGGLE_AUTOMATIC_HIGHBEAM" text="Přepnout automatická dálková světla"/>
+        <text name="vas_notification_automaticHighBeam_enabled" text="Automatická dálková světla: zapnuta"/>
+        <text name="vas_notification_automaticHighBeam_disabled" text="Automatická dálková světla: vypnuta"/>
+
+        <text name="input_VAS_TOGGLE_RWS" text="Přepnout zadní výstrahu"/>
+        <text name="vas_notification_RWS_enabled" text="Zadní výstraha: aktivována"/>
+        <text name="vas_notification_RWS_disabled" text="Zadní výstraha: deaktivována"/>
+
+        <text name="input_VAS_TOGGLE_SOUNDGROUP" text="Přepnout sirénu"/>
+        
+        <text name="input_VAS_SWITCH_SOUNDGROUP" text="Změnit sirénu"/>
+
+        <text name="input_VAS_AIR_HORN" text="Vzduchová houkačka"/>
+
+        <text name="vas_configuration_soundControl" text="Nastavení sirény"/>
+    </texts>
+</l10n>

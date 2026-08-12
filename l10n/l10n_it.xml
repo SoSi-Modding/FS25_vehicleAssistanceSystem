@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <texts>
+        <text name="vas_title" text="Sistema di assistenza al veicolo"/>
+
+        <text name="vas_automaticEmergencyBraking" text="Assistente alla frenata di emergenza"/>
+        <text name="vas_automaticEmergencyBraking_tooltip" text="Avvisa acusticamente di una possibile collisione e frena automaticamente se necessario."/>
+
+        <text name="vas_parkingDistanceControl" text="Sensori di parcheggio"/>
+        <text name="vas_parkingDistanceControl_tooltip" text="Emette segnali acustici sui veicoli supportati che indicano la distanza dagli ostacoli anteriori e posteriori."/>
+
+        <text name="input_VAS_TOGGLE_INTELLIGENT_CRUISE_CONTROL" text="Attiva/disattiva cruise control intelligente"/>
+        <text name="vas_notification_intelligentCruiseControl_enabled" text="Cruise control intelligente: attivato"/>
+        <text name="vas_notification_intelligentCruiseControl_disabled" text="Cruise control intelligente: disattivato"/>
+
+        <text name="input_VAS_TOGGLE_AUTOMATIC_LOWBEAM" text="Attiva/disattiva anabbaglianti automatici"/>
+        <text name="vas_notification_automaticLowBeam_enabled" text="Anabbaglianti automatici: attivati"/>
+        <text name="vas_notification_automaticLowBeam_disabled" text="Anabbaglianti automatici: disattivati"/>
+
+        <text name="input_VAS_TOGGLE_AUTOMATIC_HIGHBEAM" text="Attiva/disattiva abbaglianti automatici"/>
+        <text name="vas_notification_automaticHighBeam_enabled" text="Abbaglianti automatici: attivati"/>
+        <text name="vas_notification_automaticHighBeam_disabled" text="Abbaglianti automatici: disattivati"/>
+
+        <text name="input_VAS_TOGGLE_RWS" text="Attiva/disattiva avviso posteriore"/>
+        <text name="vas_notification_RWS_enabled" text="Avvisatore posteriore: attivato"/>
+        <text name="vas_notification_RWS_disabled" text="Avvisatore posteriore: disattivato"/>
+
+        <text name="input_VAS_TOGGLE_SOUNDGROUP" text="Attiva/disattiva sirena"/>
+        
+        <text name="input_VAS_SWITCH_SOUNDGROUP" text="Cambia sirena"/>
+
+        <text name="input_VAS_AIR_HORN" text="Tromba ad aria"/>
+
+        <text name="vas_configuration_soundControl" text="Configurazione sirena"/>
+    </texts>
+</l10n>

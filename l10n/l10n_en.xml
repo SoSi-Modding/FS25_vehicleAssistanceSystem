@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <texts>
+		<text name="vas_title" text="Vehicle Assistance System"/>
+
+		<text name="vas_automaticEmergencyBraking" text="Automatic Emergency Braking"/>
+		<text name="vas_automaticEmergencyBraking_tooltip" text="Provides an audible warning in supported vehicles and automatically applies the brakes if a collision is imminent."/>
+
+		<text name="vas_parkingDistanceControl" text="Parking Distance Control"/>
+		<text name="vas_parkingDistanceControl_tooltip" text="Emits audible signals in supported vehicles to indicate the distance to obstacles at the front and rear."/>
+
+		<text name="input_VAS_TOGGLE_INTELLIGENT_CRUISE_CONTROL" text="Toggle Intelligent Cruise Control"/>
+		<text name="vas_notification_intelligentCruiseControl_enabled" text="Intelligent Cruise Control: enabled"/>
+		<text name="vas_notification_intelligentCruiseControl_disabled" text="Intelligent Cruise Control: disabled"/>
+
+		<text name="input_VAS_TOGGLE_AUTOMATIC_LOWBEAM" text="Toggle Automatic Low Beam"/>
+		<text name="vas_notification_automaticLowBeam_enabled" text="Automatic Low Beam: enabled"/>
+		<text name="vas_notification_automaticLowBeam_disabled" text="Automatic Low Beam: disabled"/>
+
+		<text name="input_VAS_TOGGLE_AUTOMATIC_HIGHBEAM" text="Toggle Automatic High Beam"/>
+		<text name="vas_notification_automaticHighBeam_enabled" text="Automatic High Beam: enabled"/>
+		<text name="vas_notification_automaticHighBeam_disabled" text="Automatic High Beam: disabled"/>
+
+		<text name="input_VAS_TOGGLE_RWS" text="Toggle Rear Warning System"/>
+		<text name="vas_notification_RWS_enabled" text="Rear Warning System: enabled"/>
+		<text name="vas_notification_RWS_disabled" text="Rear Warning System: disabled"/>
+
+		<text name="input_VAS_TOGGLE_SOUNDGROUP" text="Toggle Siren"/>
+
+		<text name="input_VAS_SWITCH_SOUNDGROUP" text="Switch Siren"/>
+
+		<text name="input_VAS_AIR_HORN" text="Air Horn"/>
+
+		<text name="vas_configuration_soundControl" text="Siren Configuration"/>
+    </texts>
+</l10n>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <texts>
+		<text name="vas_title" text="Système D'Assistance Au Véhicule"/>
+
+		<text name="vas_automaticEmergencyBraking" text="Freinage D'Urgence Automatique"/>
+		<text name="vas_automaticEmergencyBraking_tooltip" text="Émet un avertissement sonore sur les véhicules compatibles et freine automatiquement en cas de risque de collision."/>
+
+		<text name="vas_parkingDistanceControl" text="Aide Au Stationnement"/>
+		<text name="vas_parkingDistanceControl_tooltip" text="Émet des signaux sonores sur les véhicules compatibles pour indiquer la distance aux obstacles à l'avant et à l'arrière."/>
+
+		<text name="input_VAS_TOGGLE_INTELLIGENT_CRUISE_CONTROL" text="Basculer le régulateur de vitesse intelligent"/>
+		<text name="vas_notification_intelligentCruiseControl_enabled" text="Régulateur de vitesse intelligent : activé"/>
+		<text name="vas_notification_intelligentCruiseControl_disabled" text="Régulateur de vitesse intelligent : désactivé"/>
+
+		<text name="input_VAS_TOGGLE_AUTOMATIC_LOWBEAM" text="Basculer les feux de croisement automatiques"/>
+		<text name="vas_notification_automaticLowBeam_enabled" text="Feux de croisement automatiques : activés"/>
+		<text name="vas_notification_automaticLowBeam_disabled" text="Feux de croisement automatiques : désactivés"/>
+
+		<text name="input_VAS_TOGGLE_AUTOMATIC_HIGHBEAM" text="Basculer les feux de route automatiques"/>
+		<text name="vas_notification_automaticHighBeam_enabled" text="Feux de route automatiques : activés"/>
+		<text name="vas_notification_automaticHighBeam_disabled" text="Feux de route automatiques : désactivés"/>
+
+		<text name="input_VAS_TOGGLE_RWS" text="Activer/désactiver l’avertisseur arrière"/>
+		<text name="vas_notification_RWS_enabled" text="Avertisseur arrière : activé"/>
+		<text name="vas_notification_RWS_disabled" text="Avertisseur arrière : désactivé"/>
+
+		<text name="input_VAS_TOGGLE_SOUNDGROUP" text="Activer/désactiver la sirène"/>
+
+		<text name="input_VAS_SWITCH_SOUNDGROUP" text="Changer de sirène"/>
+
+		<text name="input_VAS_AIR_HORN" text="Klaxon pneumatique"/>
+		
+		<text name="vas_configuration_soundControl" text="Configuration de la sirène"/>
+    </texts>
+</l10n>

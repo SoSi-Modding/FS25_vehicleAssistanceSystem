@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<vehicleAssistanceSystemSettings>
+	<parkingDistanceControl defaultMaxDistance="1.5" defaultMaxSpeed="8">
+		<defaultSounds>
+			<defaultSound name="beep">
+				<sound file="shared/sounds/pdc_beep.ogg"/>
+			</defaultSound>
+			<defaultSound name="continuous">
+				<sound file="shared/sounds/pdc_continuous.ogg" loop="true"/>
+			</defaultSound>
+		</defaultSounds>
+
+		<defaultZones>
+            <defaultZone distance="1.2" 	interval="900" 		volume="0.35" 	pitch="0.95" />
+            <defaultZone distance="0.7" 	interval="450" 		volume="0.6" 	pitch="1.0" />
+            <defaultZone distance="0.35" 	continuous="true" 	volume="0.9" 	pitch="1.0" />
+        </defaultZones>
+
+		<supportedVehicles>
+			<vehicle path="data/vehicles/skoda/kodiaq/kodiaq.xml"> <!-- Basegame -->
+				<sensors>
+					<sensor position="0.87 0.505 -1.795" type="back"/>
+					<sensor position="0.668 0.6 -2.18" type="back"/>
+					<sensor position="0.25 0.6 -2.3" type="back"/>
+					<sensor position="-0.25 0.6 -2.3" type="back"/>
+					<sensor position="-0.668 0.6 -2.18" type="back"/>
+					<sensor position="-0.87 0.505 -1.795" type="back"/>
+					<sensor position="0.885 0.54 1.97" type="front"/>
+					<sensor position="0.298 0.553 2.385" type="front"/>
+					<sensor position="-0.298 0.553 2.385" type="front"/>
+					<sensor position="-0.885 0.54 1.97" type="front"/>
+				</sensors>
+			</vehicle>
+			<vehicle path="data/vehicles/skoda/enyaq/enyaq.xml"> <!-- Basegame -->
+				<sensors>
+					<sensor position="0.87 0.512 -1.856" type="back"/>
+					<sensor position="0.674 0.479 -2.226" type="back"/>
+					<sensor position="0.258 0.551 -2.303" type="back"/>
+					<sensor position="-0.258 0.551 -2.303" type="back"/>
+					<sensor position="-0.674 0.479 -2.226" type="back"/>
+					<sensor position="-0.87 0.512 -1.856" type="back"/>
+					<sensor position="0.915 0.578 1.88" type="front"/>
+					<sensor position="0.667 0.495 2.17" type="front"/>
+					<sensor position="0.31 0.445 2.319" type="front"/>
+					<sensor position="-0.31 0.445 2.319" type="front"/>
+					<sensor position="-0.667 0.495 2.17" type="front"/>
+					<sensor position="-0.915 0.578 1.88" type="front"/>
+				</sensors>
+			</vehicle>
+			<vehicle path="data/vehicles/lizard/pickup2017/pickup2017.xml"> <!-- Basegame -->
+				<sensors>
+					<sensor position="0.631 0.6 -2.682" type="back"/>
+					<sensor position="-0.631 0.6 -2.682" type="back"/>
+					<sensor position="-0.289 0.816 2.618" type="front"/>
+					<sensor position="0.289 0.816 2.618" type="front"/>
+					<sensor position="0.693 0.594 2.425" type="front"/>
+					<sensor position="-0.693 0.594 2.425" type="front"/>
+				</sensors>
+			</vehicle>
+			<vehicle path="$pdlcdir$highlandsFishingPack/vehicles/skoda/octavia/octavia.xml"> <!-- Highlands Fishing Pack -->
+				<sensors>
+					<sensor position="0.829 0.542 -2.043" type="back"/>
+					<sensor position="0.675 0.568 -2.313" type="back"/>
+					<sensor position="0.25 0.574 -2.423" type="back"/>
+					<sensor position="-0.25 0.574 -2.423" type="back"/>
+					<sensor position="-0.675 0.568 -2.313" type="back"/>
+					<sensor position="-0.829 0.542 -2.043" type="back"/>
+					<sensor position="-0.885 0.552 1.688" type="front"/>
+					<sensor position="-0.284 0.446 2.238" type="front"/>
+					<sensor position="0.284 0.446 2.238" type="front"/>
+					<sensor position="0.885 0.552 1.688" type="front"/>
+				</sensors>
+			</vehicle>
+			<vehicle path="$moddir$FS25_Skoda_Kodiaq/kodiaq.xml"> <!-- ModHub - by T3mok Modding -->
+				<sensors>
+					<sensor position="0.87 0.505 -1.795" type="back"/>
+					<sensor position="0.668 0.6 -2.18" type="back"/>
+					<sensor position="0.25 0.6 -2.3" type="back"/>
+					<sensor position="-0.25 0.6 -2.3" type="back"/>
+					<sensor position="-0.668 0.6 -2.18" type="back"/>
+					<sensor position="-0.87 0.505 -1.795" type="back"/>
+					<sensor position="0.885 0.54 1.97" type="front"/>
+					<sensor position="0.298 0.553 2.385" type="front"/>
+					<sensor position="-0.298 0.553 2.385" type="front"/>
+					<sensor position="-0.885 0.54 1.97" type="front"/>
+				</sensors>
+			</vehicle>
+			<vehicle path="$moddir$FS25_SkodaKodiaq_RS_Plus/kodiaq.xml"> <!-- ModHub - by Just Farming -->
+				<sensors>
+					<sensor position="0.87 0.505 -1.795" type="back"/>
+					<sensor position="0.668 0.6 -2.18" type="back"/>
+					<sensor position="0.25 0.6 -2.3" type="back"/>
+					<sensor position="-0.25 0.6 -2.3" type="back"/>
+					<sensor position="-0.668 0.6 -2.18" type="back"/>
+					<sensor position="-0.87 0.505 -1.795" type="back"/>
+					<sensor position="0.885 0.54 1.97" type="front"/>
+					<sensor position="0.298 0.553 2.385" type="front"/>
+					<sensor position="-0.298 0.553 2.385" type="front"/>
+					<sensor position="-0.885 0.54 1.97" type="front"/>
+				</sensors>
+			</vehicle>
+			<vehicle path="$moddir$FS25_SkodaEnayqStyleRS/enyaq.xml"> <!-- ModHub - by Just Farming -->
+				<sensors>
+					<sensor position="0.87 0.512 -1.856" type="back"/>
+					<sensor position="0.674 0.479 -2.226" type="back"/>
+					<sensor position="0.258 0.551 -2.303" type="back"/>
+					<sensor position="-0.258 0.551 -2.303" type="back"/>
+					<sensor position="-0.674 0.479 -2.226" type="back"/>
+					<sensor position="-0.87 0.512 -1.856" type="back"/>
+					<sensor position="0.915 0.578 1.88" type="front"/>
+					<sensor position="0.667 0.495 2.17" type="front"/>
+					<sensor position="0.31 0.445 2.319" type="front"/>
+					<sensor position="-0.31 0.445 2.319" type="front"/>
+					<sensor position="-0.667 0.495 2.17" type="front"/>
+					<sensor position="-0.915 0.578 1.88" type="front"/>
+				</sensors>
+			</vehicle>
+			<vehicle path="$moddir$FS25_Skoda_Octavia/Octavia.xml"> <!-- ModHub - by MLP-Visuals -->
+				<sensors>
+					<sensor position="0.838 0.532 -2.01" type="back"/>
+					<sensor position="0.679 0.558 -2.295" type="back"/>
+					<sensor position="0.256 0.542 -2.396" type="back"/>
+					<sensor position="-0.256 0.542 -2.396" type="back"/>
+					<sensor position="-0.679 0.558 -2.295" type="back"/>
+					<sensor position="-0.838 0.532 -2.01" type="back"/>
+					<sensor position="-0.9 0.554 1.818" type="front"/>
+					<sensor position="-0.31 0.434 2.363" type="front"/>
+					<sensor position="0.31 0.434 2.363" type="front"/>
+					<sensor position="0.9 0.554 1.818" type="front"/>
+				</sensors>
+			</vehicle>
+		</supportedVehicles>
+	</parkingDistanceControl>
+
+	<automaticEmergencyBraking>
+		<defaultSounds>
+			<defaultSound name="warning">
+				<sound file="shared/sounds/aeb_warning.ogg"/>
+			</defaultSound>
+		</defaultSounds>
+
+		<supportedVehicles>
+			<vehicle path="data/vehicles/skoda/kodiaq/kodiaq.xml"/> <!-- Basegame -->
+			<vehicle path="data/vehicles/skoda/enyaq/enyaq.xml"/> <!-- Basegame -->
+			<vehicle path="data/vehicles/lizard/pickup2017/pickup2017.xml"/> <!-- Basegame -->
+			<vehicle path="$pdlcdir$highlandsFishingPack/vehicles/skoda/octavia/octavia.xml"/> <!-- Highlands Fishing DLC -->
+			<vehicle path="$moddir$FS25_Skoda_Kodiaq/kodiaq.xml"/> <!-- ModHub - by T3mok Modding -->
+			<vehicle path="$moddir$FS25_MAN_TGE_TSF_W/TGE_TSF_W.xml"/> <!-- ModHub - by T3mok Modding -->
+			<vehicle path="$moddir$FS25_MAN_TGE_Ambulance/TGE_Ambulance.xml"/> <!-- ModHub - by T3mok Modding -->
+			<vehicle path="$moddir$FS25_Skoda_Octavia/Octavia.xml"/> <!-- ModHub - by MLP-Visuals -->
+			<vehicle path="$moddir$FS25_SkodaKodiaq_RS_Plus/kodiaq.xml"/> <!-- ModHub - by Just Farming -->
+			<vehicle path="$moddir$FS25_SkodaEnayqStyleRS/enyaq.xml"/> <!-- ModHub - by Just Farming -->
+			<vehicle path="$moddir$FS25_Lizard_AGR_1500/Lizard_AGR_1500.xml"/> <!-- ModHub - by Agro Tonho -->
+			<vehicle path="$moddir$FS25_LizardStreet/street2022.xml"/> <!-- ModHub - by VincoMods -->
+			<vehicle path="$moddir$FS25_pickup2014_Df/pickup2014.xml"/> <!-- ModHub - by Dogface -->
+		</supportedVehicles>
+	</automaticEmergencyBraking>
+</vehicleAssistanceSystemSettings>

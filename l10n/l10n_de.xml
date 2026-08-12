@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <texts>
+		<text name="vas_title" text="Fahrzeugassistenzsystem"/>
+
+		<text name="vas_automaticEmergencyBraking" text="Notbremsassistent"/>
+		<text name="vas_automaticEmergencyBraking_tooltip" text="Warnt bei unterstützten Fahrzeugen akustisch vor einem drohenden Aufprall und leitet bei Bedarf automatisch eine Bremsung ein."/>
+
+		<text name="vas_parkingDistanceControl" text="Einparkhilfe"/>
+		<text name="vas_parkingDistanceControl_tooltip" text="Gibt bei unterstützten Fahrzeugen akustische Signale aus, die den Abstand zu Hindernissen vorne und hinten anzeigen."/>
+
+		<text name="input_VAS_TOGGLE_INTELLIGENT_CRUISE_CONTROL" text="Intelligenten Tempomat umschalten"/>
+		<text name="vas_notification_intelligentCruiseControl_enabled" text="Intelligenter Tempomat: aktiviert"/>
+		<text name="vas_notification_intelligentCruiseControl_disabled" text="Intelligenter Tempomat: deaktiviert"/>
+
+		<text name="input_VAS_TOGGLE_AUTOMATIC_LOWBEAM" text="Automatisches Abblendlicht umschalten"/>
+		<text name="vas_notification_automaticLowBeam_enabled" text="Automatisches Abblendlicht: aktiviert"/>
+		<text name="vas_notification_automaticLowBeam_disabled" text="Automatisches Abblendlicht: deaktiviert"/>
+
+		<text name="input_VAS_TOGGLE_AUTOMATIC_HIGHBEAM" text="Automatisches Fernlicht umschalten"/>
+		<text name="vas_notification_automaticHighBeam_enabled" text="Automatisches Fernlicht: aktiviert"/>
+		<text name="vas_notification_automaticHighBeam_disabled" text="Automatisches Fernlicht: deaktiviert"/>
+
+		<text name="input_VAS_TOGGLE_RWS" text="Heckwarner umschalten"/>
+		<text name="vas_notification_RWS_enabled" text="Heckwarner: aktiviert"/>
+		<text name="vas_notification_RWS_disabled" text="Heckwarner: deaktiviert"/>
+
+		<text name="input_VAS_TOGGLE_SOUNDGROUP" text="Sirene umschalten"/>
+
+		<text name="input_VAS_SWITCH_SOUNDGROUP" text="Sirene wechseln"/>
+
+		<text name="input_VAS_AIR_HORN" text="Bullhorn"/>
+
+		<text name="vas_configuration_soundControl" text="Sirenenkonfiguration"/>
+    </texts>
+</l10n>
